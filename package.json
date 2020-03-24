@@ -53,7 +53,7 @@
     "typescript": "^3.8.3"
   },
   "bin": {
-    "scaffold": "./scaffold.js"
+    "scaffold": "./scaffold.bash"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
