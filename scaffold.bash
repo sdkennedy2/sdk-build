@@ -4,6 +4,6 @@ mkdir $1
 pushd $1
 mkdir -p src/node src/browser
 cp ${DIR}/.editorconfig
-cp -R ${DIR}/static/ .
+cp -R ${DIR}/static/ ./
 yarn install
 popd
