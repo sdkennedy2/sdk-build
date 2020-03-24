@@ -1,5 +1,2 @@
 #!/usr/bin/env bash
-
-concurrently \
-  "scripts/babel.sh --watch" \
-  "scripts/run-browser.sh $*"
+node_modules/.bin/webpack-dev-server --config node_modules/sdk-build/lib/webpack.dev.js

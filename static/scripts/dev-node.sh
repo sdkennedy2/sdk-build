@@ -2,4 +2,4 @@
 
 concurrently \
   "scripts/babel.sh --watch" \
-  "scripts/run-server.sh $*"
+  "sleep 5 && nodemon --watch dist/node $*"
