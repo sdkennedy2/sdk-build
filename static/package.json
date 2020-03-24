@@ -1,0 +1,9 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Scott Kennedy <scott@scottkennedy.ca>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {}
+}
