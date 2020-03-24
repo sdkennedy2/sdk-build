@@ -5,5 +5,11 @@
   "author": "Scott Kennedy <scott@scottkennedy.ca>",
   "license": "MIT",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "eslint": "^6.8.0",
+    "prettier": "^2.0.2",
+    "sdk-build": "git+ssh://git@github.com:sdkennedy2/sdk-build.git",
+    "typescript": "^3.8.3"
+  }
 }

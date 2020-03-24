@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-cwd=$(pwd)
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 mkdir $1
 pushd $1
 mkdir -p src/node src/browser
-cp ${cwd}/.editorconfig
-cp ${cwd}/static .
-yarn add -D sdk-build
+cp ${DIR}/.editorconfig
+cp -R ${DIR}/static/* .
+yarn install
 popd
