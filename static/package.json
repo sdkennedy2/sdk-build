@@ -13,10 +13,13 @@
     "sdk-build": "git+ssh://git@github.com:sdkennedy2/sdk-build.git",
     "typescript": "^3.8.3"
   },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
   "scripts": {
     "eslint": "eslint --no-error-on-unmatched-pattern 'src/**/*.ts' 'src/**/*.tsx'",
     "eslint-fix": "eslint --fix --no-error-on-unmatched-pattern 'src/**/*.ts' 'src/**/*.tsx",
     "dev-browser": "scripts/dev-browser.sh",
-    "dev-node": "scripts/dev-node.sh dist/node/index.ts"
+    "dev-node": "scripts/dev-node.sh dist/node/node/index.ts"
   }
 }
