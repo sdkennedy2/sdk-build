@@ -4,6 +4,6 @@ MODULE="${DIR}/../lib/node_modules/sdk-build"
 mkdir $1
 pushd $1
 cp ${MODULE}/.editorconfig ./
-cp -R ${MODULE}/static ./
+cp -R ${MODULE}/static/ ./
 yarn install
 popd
