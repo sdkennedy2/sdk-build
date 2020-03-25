@@ -20,6 +20,6 @@
     "eslint": "eslint --no-error-on-unmatched-pattern 'src/**/*.ts' 'src/**/*.tsx'",
     "eslint-fix": "eslint --fix --no-error-on-unmatched-pattern 'src/**/*.ts' 'src/**/*.tsx",
     "dev-browser": "scripts/dev-browser.sh",
-    "dev-node": "scripts/dev-node.sh dist/node/node/index.ts"
+    "dev-node": "scripts/dev-node.sh dist/node/node/index.js"
   }
 }
