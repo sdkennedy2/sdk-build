@@ -4,5 +4,6 @@ MODULE="${DIR}/../lib/node_modules/sdk-build"
 mkdir $1
 pushd $1
 cp -R ${MODULE}/static/ ./
+cp -R ${MODULE}/.gitignore ./
 yarn install
 popd

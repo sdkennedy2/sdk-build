@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Test</title>
+  </head>
+  <body>
+    <script>
+      window.files = <%=JSON.stringify(htmlWebpackPlugin.files)%>;
+    </script>
+    <script src="<%=htmlWebpackPlugin.files.js.find(file => file.includes('index'))%>"></script>
+  </body>
+</html>
