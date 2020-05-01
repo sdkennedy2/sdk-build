@@ -1,6 +1,6 @@
 {
   "name": "sdk-build",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "author": "Scott Kennedy <scott@scottkennedy.ca>",
   "license": "MIT",
