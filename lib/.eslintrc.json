@@ -8,7 +8,8 @@
   "plugins": [
     "babel",
     "prettier",
-    "react"
+    "react",
+    "react-hooks"
   ],
   "overrides": [
     {
@@ -42,7 +43,9 @@
         "tabWidth": 2,
         "trailingComma": "all"
       }
-    ]
+    ],
+    "react-hooks/exhaustive-deps": "warn",
+    "react-hooks/rules-of-hooks": "error"
   },
   "settings": {
     "react": {
